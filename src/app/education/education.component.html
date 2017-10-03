@@ -1,0 +1,25 @@
+<body style="background-color: #F5A9F2">
+  <b>
+    <h3>EDUCACIÓN</h3>
+  </b>
+  <br><br>
+<ul>
+    <li *ngFor = "let educa of educacion">
+        <p><b>
+            {{educa.nombre}}
+        </b>
+        </p>
+        <p>
+            {{educa.inicio}}
+        </p>
+        <p>
+            {{educa.fin}}
+        </p>
+        <p>
+            {{educa.ciudad}}
+        </p>
+        <img src = {{educa.imagen}} width="100" height="100">
+        <br><br>
+    </li>
+</ul>
+</body>

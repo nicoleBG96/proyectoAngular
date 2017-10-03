@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -10,6 +11,8 @@ import { DemoComponent } from './components/demo/demo.component';
 import { Demo1Component } from './components/demo1/demo1.component';
 import { AbilitiesComponent } from './components/abilities/abilities.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { EducationComponent } from './education/education.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
@@ -20,6 +23,8 @@ import { ContactComponent } from './components/contact/contact.component';
     Demo1Component,
     AbilitiesComponent,
     ContactComponent,
+    EducationComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

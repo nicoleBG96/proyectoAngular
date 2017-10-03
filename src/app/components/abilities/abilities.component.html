@@ -1,10 +1,27 @@
-<body style="background-color:#DA81F5" aling="center">
-        <table style="width: 30%" align="center">
-                <tr><h2>HABILIDADES</h2></tr>
-                <br>
-                <br>
-              </table>
-            <ul>
-               <h4> <li *ngFor="let habilidad of habilidades">{{habilidad}}</li></h4>
-            </ul>
-</body>
+<body style="background-color:#D0A9F5 "> 
+    <table style align="center">
+      <tr><h3>HABILIDADES</h3></tr>
+    </table>
+    <br>
+    <br>
+</body> 
+<ul>
+  <h4>
+    <li *ngFor="let habilidad of habilidades">
+        <div class="col-md-2">
+          {{habilidad.nombre}}
+        </div>
+        <br>
+        <div class="col-md-2">
+          {{habilidad.puntaje}}
+        </div>
+        <br>
+        <div class="col-md-2">
+          <img src= {{habilidad.src}} height="100" width="100">
+        </div>
+        <br>
+        <br>
+      </li>
+  </h4>
+</ul>
+

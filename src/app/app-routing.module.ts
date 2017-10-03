@@ -4,6 +4,8 @@ import { DemoComponent } from "./components/demo/demo.component";
 import {Demo1Component} from "./components/demo1/demo1.component";
 import {AbilitiesComponent} from "./components/abilities/abilities.component";
 import {ContactComponent} from "./components/contact/contact.component";
+import {EducationComponent} from "./education/education.component";
+import {ProjectsComponent} from "./projects/projects.component";
 
 const routes: Routes = [
   {
@@ -17,6 +19,12 @@ const routes: Routes = [
   },
   {
     path: 'contact',component: ContactComponent
+  },
+  {
+    path: 'education',component: EducationComponent
+  },
+  {
+    path:'projects',component: ProjectsComponent
   }
 ];
 

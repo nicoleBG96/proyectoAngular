@@ -1,0 +1,16 @@
+<body style="background-color: #F5A9F2">
+    <b>
+      <h2>PROYECTOS</h2>
+    </b>
+    <br><br>
+  <ul>
+      <li *ngFor = "let proye of proyectos">
+          <p><b>
+              {{proye.nombre}}
+          </b>
+          </p>
+          <img src = {{proye.imagen}} width="400" height="300">
+          <br><br>
+      </li>
+  </ul>
+  </body>
